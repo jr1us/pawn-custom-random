@@ -79,8 +79,10 @@ callback random_OnGameModeInit()
     
     printf("[-----------------------------------------------------]");
 
+    SetRandomWithSeed(gettime() - 5 + 30000 + 200);
+
     for (new i = 0; i < 5; i++) 
-        printf("[5] random number %d: %d", i, random(15));
+        printf("[5] random number %d: %d", i, random(499999999));
     
     return 1;
 }
