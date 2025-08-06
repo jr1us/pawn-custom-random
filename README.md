@@ -34,7 +34,7 @@ new value = random(100, .seed = 12345);
 
 ### Additional Functions
 
-- **SeedRandom(seed)**  
+- **SetRandomWithSeed(seed)**  
   Sets the initial value for the generator.
 
 - **RandomEx(...)**  
@@ -50,7 +50,7 @@ new rand = random(100); // 0-100
 // 2. With custom seed
 new rand = random(50, .seed = 12345);
 
-// 3. Multiple generation
+// 3. Multiple generation (seed = 12345 | last argument)
 new sum = RandomEx(10, 20, 30, 12345);
 ```
 
