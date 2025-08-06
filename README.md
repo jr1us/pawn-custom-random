@@ -1,6 +1,6 @@
 # custom-random
 
-[Русская версия](README.ru.md)
+[Russian documentation](README.ru.md)
 
 ## Author
 [jrius](https://vk.com/s.fridom) | [t.me/dcapybarov](https://t.me/dcapybarov)
